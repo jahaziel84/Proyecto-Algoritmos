@@ -3,7 +3,7 @@ Algoritmo Diseño_de_casos
 	Escribir "Que quieres realizar";
 	Escribir "1 = Fibonacci";
 	Escribir "2 = Piramide";
-	Escribir "3 Opreaciones matematicas";
+	Escribir "3 = Opreaciones matematicas";
 	leer casos;
 	
 	Segun casos Hacer
