@@ -1,4 +1,4 @@
-Algoritmo Diseño_de_casos  
+Algoritmo DiseÃ±o_de_casos  
 	definir operaciones_matematicas,piramide,fibonacci como real 
 	Escribir "Que quieres realizar";
 	Escribir "1 = Fibonacci";
@@ -8,16 +8,19 @@ Algoritmo Diseño_de_casos
 	
 	Segun casos Hacer
 		1:
-			Escribir "Por favor ingrese n";
-			Leer n;
-			A<-0;
-			B<-1;
-			Para i<-1 Hasta n Hacer
-				Escribir a;
-				c<-a+b;
-				a<-b;
-				b<-c;
-			FinPara
+			Escribir "Por favor ingrese n"
+                        Leer n;
+	                a<-0
+	                b<-1
+	                Para i<-1 Hasta n Con Paso 1 Hacer
+		        Escribir a
+		        c<-a+b
+		        a<-b 
+		        b<-c
+		            si a>=n && n<>a Entonces
+			     Imprimir  "el numero se pasa al numero n";
+		            FinSi
+	                FinPara
 		2:
 			Definir a, b, c, n como entero;
 			Escribir "escribe el numero";
